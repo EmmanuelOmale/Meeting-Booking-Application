@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background-color: white;
+}
+
+.navbar-brand {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.sub-nav-meeting {
+    display: flex;
+    align-items: center;
+}
+
+.calender-icon {
+    margin-right: 5px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f073';
+}
